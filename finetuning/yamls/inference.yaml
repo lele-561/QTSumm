@@ -1,6 +1,6 @@
 model:
   model_name_or_path: 
-  use_auth_token: True
+  use_auth_token: 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
 
 data:
   dataset_name: yale-nlp/QTSumm
@@ -16,8 +16,8 @@ data:
 
 training:
   do_predict: True
-  output_dir: outputs/finetuning_inference_outputs/
+  output_dir: outputs/finetuning_inference_outputs_20240802/
   overwrite_output_dir: True
-  per_device_eval_batch_size: 2
+  per_device_eval_batch_size: 4
   predict_with_generate: True
   fp16 : True
