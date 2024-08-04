@@ -1,0 +1,3 @@
+修改某个仓库的git user的name和email
+git config user.name "lele-561"
+git config user.email "783580168@qq.com"
