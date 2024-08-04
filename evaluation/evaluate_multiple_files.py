@@ -3,7 +3,7 @@ from utils.evaluation_utils import *
 import argparse
 from datasets import load_dataset
 import os
-from evaluation.evaluation_single_file import evaluate_prediction
+from evaluation.evaluate_single_file import evaluate_prediction
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
